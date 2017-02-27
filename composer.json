@@ -1,0 +1,19 @@
+{
+	"name": "vanilla/legacy-oauth",
+	"description": "Provides a way to include OAuth v1 via composer",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{ "name": "Todd Burry", "email": "todd@vanillaforums.com", "role": "developer" },
+		{ "name": "Tim Gunter", "email": "tim@vanillaforums.com", "role": "developer" }
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"suggest": {
+		"php": ">=5.5.0"
+	},
+	"autoload": {
+		"classmap": ["OAuth.php"]
+	}
+}
